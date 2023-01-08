@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: java-spring-boot
+    ports:
+      - "5436:5436"
+    networks:
+      - default
+    command: -p 5436
+
+networks:
+  default:
+
+volumes:
+  postgres:
