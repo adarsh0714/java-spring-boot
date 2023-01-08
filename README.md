@@ -16,6 +16,9 @@ Java Spring Boot Project
 - configure application.yml
 - add sql file for Flyway migrations
 
+###### 02. simple crud APIs
+- add Customer Model, Record, Controller, Service, Repository
+
 ### Run locally
 - On the host, from IDE:
 ```
